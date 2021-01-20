@@ -1,0 +1,69 @@
+.con{
+    justify-content: space-between;
+    display: flex;
+    height: 4vw;
+    
+}
+.hours{
+    background-color: rgb(247, 213, 169);
+    height: 2vw;
+    width: 4vw;
+    border-radius: 1vw;
+    border: 0.2vw solid black;
+}
+.min{
+    display: flex;
+    height: 4vw;
+}
+.minute{
+    background-color: rgb(169, 244, 247);
+    height: 2vw;
+    width: 4vw;
+    border-radius: 1vw;
+    border: 0.2vw solid black;
+}
+.sec{
+    display: flex;
+}
+.second{
+    background-color: rgb(169, 244, 247);
+    height: 2vw;
+    width: 4vw;
+    border: 0.2vw solid black;
+}
+.analogclock{
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(clockpic.png) no-repeat;
+    background-size: 40vw;
+}
+ #id12{
+     background-color: rgb(85, 156, 236); 
+ }
+ #hourr, #minuu , #secoo{
+    position:absolute;
+    background-color: rgb(47, 42, 49);
+    border-radius: 10vw;
+    transform-origin: bottom;
+ }
+
+ #hourr {
+    width: 1.3vw;
+    top: 13vw;
+    height: 7vw;
+    left: 19.8vw;
+}
+#minuu {
+    width: 0.8vw;
+    top: 10vw;
+    height: 10vw;
+    left: 20vw;
+}
+ #secoo{
+    width: 0.5vw;
+    top: 8vw;
+    height: 12vw;
+    left: 20.16vw;
+ }
